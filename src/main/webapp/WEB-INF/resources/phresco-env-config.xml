@@ -1,0 +1,28 @@
+<environments>
+    <environment default="true" name="Production">
+        <Server name="Server Configuration">
+            <context>jquerycustom</context>
+            <admin_username/>
+            <deploy_dir>//Users/chelladurai/Desktop/tomcat-14/tomcat-7.0.14/webapps/</deploy_dir>
+            <additional_context/>
+            <port>8080</port>
+            <admin_password/>
+            <version>6.0.x</version>
+            <certificate/>
+            <type>Apache Tomcat</type>
+            <remoteDeployment>false</remoteDeployment>
+            <host>localhost</host>
+            <protocol>http</protocol>
+        </Server>
+        <Database desc="" name="database">
+            <version>5.5.1</version>
+            <port>3306</port>
+            <password/>
+            <type>MYSQL</type>
+            <host>localhost</host>
+            <driver>com.mysql.jdbc.Driver</driver>
+            <dbname>test</dbname>
+            <username/>
+        </Database>
+    </environment>
+</environments>
